@@ -1,26 +1,37 @@
+ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
 .header{
     background-color: rgb(30, 30, 42);
     color: white;
     padding-left: 96px;
     padding-right: 96px;
-    padding-bottom: 96px;
+    padding-bottom: 48px;
+    border: 0;
 }
 
 .topheader{
     justify-content: space-between;
     display: flex;  
-    margin-bottom: 64px;  
+    margin-bottom: 48px;  
 }
 
 .leftheader{
     margin-top: 16px;
 }
 
-ol{
+.links{
     font-size: small;
     display: flex;
     gap: 16px;
-    list-style: none;
 }
 
 .left{
@@ -28,7 +39,6 @@ ol{
 }
 .big{
     font-size: 30px;
-    flex-wrap: wrap;
     width: 200px;
 }
 
@@ -59,4 +69,65 @@ button{
     width: 250px;
     background-color: grey;
     height: 140px;
+}
+
+.uppermid{
+    display: flex;
+    flex-direction: column;
+}
+
+.center-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.list{
+    display: flex;
+    gap: 16px;
+    margin: 16px;
+    justify-content: center;
+    flex-shrink: 1;
+}
+
+img{
+    border: 1px solid;
+    border-radius: 12px;
+    color: blue;
+    border-width: 4px;
+    padding: 50px;
+}
+
+li{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 8px;
+    flex-wrap: wrap;
+    flex-basis: 20px;
+    overflow: visible;
+}
+
+.quote-container{
+    background-color: beige;
+
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+    padding: 64px;
+    padding-left: 192px;
+    padding-right: 192px;
+}
+
+.claim-tag{
+    display: flex;
+    justify-content: flex-end;
+    margin: 16px;
+    padding-right: 192px;
+    padding-bottom: 32px;
 }
